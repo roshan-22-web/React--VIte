@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: purple;
+    padding: 5px 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}

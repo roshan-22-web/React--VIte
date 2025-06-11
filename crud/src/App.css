@@ -1,0 +1,60 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button-container button{
+    margin-left: 5px;
+}
+.button-container button:last-child{
+    background-color: rgb(239, 61, 61);
+    color: white;
+}
+.form input:first-child{
+    margin-top: 20px;
+}
+
+.form input{
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+   padding: 10px 12px;
+   outline: none;
+   margin-bottom: 12px;
+   width: 200px;
+}
+.form button{
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.dataTable{
+    margin-top: 30px;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+table button{
+    background-color: rgb(222, 188, 20);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding: 6px 10px;
+    margin: 0px 5px;
+}
+table button:last-child{
+    background-color: rgb(209, 17, 17);
+    color: white;
+}
